@@ -1,0 +1,59 @@
+pip install virtualenv
+virtualenv env //env - user defined folder
+env\Scripts\activate.ps1
+Set-ExecutionPolicy unrestricted
+
+pip install flask
+pip install flask-sqlalchemy
+pip install openpyxl
+
+//Usefull links
+https://www.python.org/downloads/
+https://flask.palletsprojects.com/en/2.0.x/quickstart/
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/quickstart/
+https://inloop.github.io/sqlite-viewer/
+
+//Usefull vscode extensions
+jinja2 Snippet Kit
+flask-snippets
+
+//Create db
+python
+from app import db
+db.create_all()
+
+//Heroku deploy
+1.create free account
+https://signup.heroku.com/
+2.download heroku cli for windows
+https://devcenter.heroku.com/articles/heroku-cli
+install it and set envi variable
+3.create Procfile //heroku to know where to start 
+web: gunicorn app:app
+
+heroku login
+git init
+//if you don't have git download and install
+https://git-scm.com/downloads
+git add .
+git commit -m "comment---"
+heroku create git_repository_name //git_repository_name - whatever you want
+git push heroku master
+
+//want to push changes
+git add .
+git commit -m "comment---"
+git push heroku master
+
+git remote
+//to check push and pull
+
+
+//create envirnment for deployment
+pip install gunicorn
+pip freeze > requirements.txt
+
+
+
+
+
