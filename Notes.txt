@@ -81,7 +81,10 @@ git reset Notes.txt
 git checkout Notes.txt  //reset single file
 git checkout .  //reset all files
 
-
+//Difference bitween git add ./-A/-u
+git add -A  stages all
+git add .	stages new and modified, without deleted
+git -u 		stages modified and deleted, without new
 
 
 //Generating SSH key commands
