@@ -49,6 +49,11 @@ git remote
 //to check push and pull
 
 
+
+
+
+//Learn Git for better project understanding
+
 //create envirnment for deployment
 pip install gunicorn
 pip freeze > requirements.txt
@@ -62,6 +67,16 @@ git commit -m "version v1"
 git log
 git config user.name "kapilmunjewar"
 git config user.email "kapilwebs@gmail.com"
+git push origin master
+git pull origin master
+
+
+
+//Generating SSH key commands
+ssh-keygen -t ed25519 -C "kapilwebapps@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+clip < ~/.ssh/id_ed25519.pub  //copy key from cli to web
 
 //Edit from Git website
 
