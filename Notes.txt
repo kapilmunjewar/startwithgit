@@ -53,7 +53,15 @@ git remote
 pip install gunicorn
 pip freeze > requirements.txt
 
-
+//Learning git
+git --version
+git status
+git init
+git add .
+git commit -m "version v1"
+git log
+git config user.name "kapilmunjewar"
+git config user.email "kapilwebs@gmail.com"
 
 
 
