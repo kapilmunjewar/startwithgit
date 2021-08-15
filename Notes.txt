@@ -77,6 +77,9 @@ git add .
 git status
 git diff Notes.txt
 git diff --staged Notes.txt
+git reset Notes.txt
+git checkout Notes.txt  //reset single file
+git checkout .  //reset all files
 
 
 
