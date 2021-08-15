@@ -69,6 +69,15 @@ git config user.name "kapilmunjewar"
 git config user.email "kapilwebs@gmail.com"
 git push origin master
 git pull origin master
+//remove changes from staging area
+//coming out from editor mode press "q" q for quit
+git status
+git diff Notes.txt
+git add .
+git status
+git diff Notes.txt
+git diff --staged Notes.txt
+
 
 
 
