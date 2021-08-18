@@ -7,6 +7,9 @@ pip install flask
 pip install flask-sqlalchemy
 pip install openpyxl
 
+// to run flask app on local matchine use
+python app_name.py
+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
 //Usefull links
 https://www.python.org/downloads/
 https://flask.palletsprojects.com/en/2.0.x/quickstart/
@@ -80,11 +83,21 @@ git diff --staged Notes.txt
 git reset Notes.txt
 git checkout Notes.txt  //reset single file
 git checkout .  //reset all files
-
+git pull //check master branch if there are any changes
 //Difference bitween git add ./-A/-u
 git add -A  stages all
 git add .	stages new and modified, without deleted
 git -u 		stages modified and deleted, without new
+git remote add origin 'https://github.com/kapilmunjewar/calculator.git'
+
+//clone git repository from github
+ls -ls
+git clone git@github.com:LambdaSchool/Intro-Python-II.git 	//copy folder in your system
+git clone git@github.com:LambdaSchool/Intro-Python-II.git . //copy folder in your system and make it repository
+
+//git ignore files
+touch .gitignore
+notepad .gtignore
 
 
 //Generating SSH key commands
